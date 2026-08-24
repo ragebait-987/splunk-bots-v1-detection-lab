@@ -6,6 +6,12 @@ A self-guided detection engineering project investigating a simulated web applic
 
 Wayne Corp's public website (`imreallynotbatman.com`, running Joomla) was defaced by a threat actor group in the BOTS v1 scenario. I investigated the full attack chain end-to-end using Splunk Search Processing Language (SPL) — reconnaissance, brute-force credential attack, successful compromise, web shell deployment, and defacement — then converted those findings into four repeatable, validated Splunk detections and a summary dashboard.
 
+## Dashboard
+
+![Detection dashboard showing attack summary and scan/brute-force detection panels](images/dashboard_screenshot.png)
+
+*Splunk Dashboard Studio dashboard consolidating all 4 detections, backed by the same validated SPL used in the saved alerts.*
+
 ## What's in this repo
 
 | File | Description |
